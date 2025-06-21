@@ -1,0 +1,375 @@
+
+--- Query: which event took place in the year 2025? ---
+[1] Score: 0.846
+Record from events table:
+Id: 1
+Title: #include
+Description: The competition kicked off...
+Event date: Feb 22, 2025
+Location: Manipal University Jaipur
+---
+[2] Score: 0.810
+Record from events table:
+Id: 9
+Title: ACM India Chapter Summit
+Description: The event took place in...
+Event date: Dec 22, 2023 - Dec 23, 2023
+Location: Manipal University Jaipur
+---
+[3] Score: 0.807
+Record from academic_calendar table:
+Id: 18
+Title: Holi
+Start date: 2024-03-25
+End date: 2024-03-25
+Description: Festival of colors.
+---
+[4] Score: 0.804
+Record from events table:
+Id: 11
+Title: ELICIT 23
+Description: A 3-day Techno culture...
+Event date: Sep 29, 2023 - Oct 02, 2023
+Location: Manipal University Jaipur
+---
+
+--- Query: list all departments ---
+[1] Score: 0.863
+Record from departments table:
+Department id: 1
+Department name: Department of Economics
+---
+[2] Score: 0.851
+Record from departments table:
+Department id: 4
+Department name: Department of Arts
+---
+[3] Score: 0.845
+Record from departments table:
+Department id: 3
+Department name: Department of Languages, Literatures and Cultural Studies
+---
+[4] Score: 0.839
+Record from departments table:
+Department id: 2
+Department name: Department of Journalism and Mass Communication
+---
+
+--- Query: which event took place in feb? ---
+[1] Score: 0.831
+Record from events table:
+Id: 1
+Title: #include
+Description: The competition kicked off...
+Event date: Feb 22, 2025
+Location: Manipal University Jaipur
+---
+[2] Score: 0.796
+Record from events table:
+Id: 7
+Title: Altair Datathon
+Description: Altair Datathon is a data...
+Event date: Apr 15, 2024 - Apr 16, 2024
+Location: Manipal University Jaipur
+---
+[3] Score: 0.793
+Record from events table:
+Id: 9
+Title: ACM India Chapter Summit
+Description: The event took place in...
+Event date: Dec 22, 2023 - Dec 23, 2023
+Location: Manipal University Jaipur
+---
+[4] Score: 0.791
+Record from events table:
+Id: 2
+Title: ACM ROCS (Research Opportunities in Computer Science)
+Description: The "ACM ROCS,"
+Event date: Nov 23, 2024
+Location: Manipal University Jaipur
+---
+
+--- Query: which competetion? ---
+[1] Score: 0.805
+Record from events table:
+Id: 1
+Title: #include
+Description: The competition kicked off...
+Event date: Feb 22, 2025
+Location: Manipal University Jaipur
+---
+[2] Score: 0.797
+Record from subjects table:
+Subject id: 5
+Subject name: Java OOPs
+---
+[3] Score: 0.794
+Record from subjects table:
+Subject id: 2
+Subject name: DSA
+---
+[4] Score: 0.793
+Record from subjects table:
+Subject id: 1
+Subject name: DAA
+---
+
+--- Query: name the event that took place in 2025? ---
+[1] Score: 0.843
+Record from events table:
+Id: 1
+Title: #include
+Description: The competition kicked off...
+Event date: Feb 22, 2025
+Location: Manipal University Jaipur
+---
+[2] Score: 0.810
+Record from academic_calendar table:
+Id: 18
+Title: Holi
+Start date: 2024-03-25
+End date: 2024-03-25
+Description: Festival of colors.
+---
+[3] Score: 0.810
+Record from events table:
+Id: 9
+Title: ACM India Chapter Summit
+Description: The event took place in...
+Event date: Dec 22, 2023 - Dec 23, 2023
+Location: Manipal University Jaipur
+---
+[4] Score: 0.804
+Record from events table:
+Id: 11
+Title: ELICIT 23
+Description: A 3-day Techno culture...
+Event date: Sep 29, 2023 - Oct 02, 2023
+Location: Manipal University Jaipur
+---
+
+--- Query: which event took place in feb 25? ---
+[1] Score: 0.840
+Record from events table:
+Id: 1
+Title: #include
+Description: The competition kicked off...
+Event date: Feb 22, 2025
+Location: Manipal University Jaipur
+---
+[2] Score: 0.804
+Record from events table:
+Id: 4
+Title: Elicit'24
+Description: A 3-day Techno cultural...
+Event date: Sep 27, 2024 - Sep 29, 2024
+Location: Manipal University Jaipur
+---
+[3] Score: 0.798
+Record from academic_calendar table:
+Id: 18
+Title: Holi
+Start date: 2024-03-25
+End date: 2024-03-25
+Description: Festival of colors.
+---
+[4] Score: 0.795
+Record from events table:
+Id: 7
+Title: Altair Datathon
+Description: Altair Datathon is a data...
+Event date: Apr 15, 2024 - Apr 16, 2024
+Location: Manipal University Jaipur
+---
+
+--- Query: which event took place in feb 2025? ---
+[1] Score: 0.871
+Record from events table:
+Id: 1
+Title: #include
+Description: The competition kicked off...
+Event date: Feb 22, 2025
+Location: Manipal University Jaipur
+---
+[2] Score: 0.818
+Record from events table:
+Id: 9
+Title: ACM India Chapter Summit
+Description: The event took place in...
+Event date: Dec 22, 2023 - Dec 23, 2023
+Location: Manipal University Jaipur
+---
+[3] Score: 0.810
+Record from academic_calendar table:
+Id: 18
+Title: Holi
+Start date: 2024-03-25
+End date: 2024-03-25
+Description: Festival of colors.
+---
+[4] Score: 0.810
+Record from events table:
+Id: 6
+Title: Research Paper Talk
+Description: A Research Paper talk...
+Event date: Jun 14, 2024
+Location: Manipal University Jaipur
+---
+
+--- Query: which event took place in feb 2025? ---
+[1] Score: 0.871
+Record from events table:
+Id: 1
+Title: #include
+Description: The competition kicked off...
+Event date: Feb 22, 2025
+Location: Manipal University Jaipur
+---
+[2] Score: 0.818
+Record from events table:
+Id: 9
+Title: ACM India Chapter Summit
+Description: The event took place in...
+Event date: Dec 22, 2023 - Dec 23, 2023
+Location: Manipal University Jaipur
+---
+[3] Score: 0.810
+Record from academic_calendar table:
+Id: 18
+Title: Holi
+Start date: 2024-03-25
+End date: 2024-03-25
+Description: Festival of colors.
+---
+[4] Score: 0.810
+Record from events table:
+Id: 6
+Title: Research Paper Talk
+Description: A Research Paper talk...
+Event date: Jun 14, 2024
+Location: Manipal University Jaipur
+---
+
+--- Query: which event took place in feb 2025? ---
+[1] Score: 0.871
+Record from events table:
+Id: 1
+Title: #include
+Description: The competition kicked off...
+Event date: Feb 22, 2025
+Location: Manipal University Jaipur
+---
+[2] Score: 0.818
+Record from events table:
+Id: 9
+Title: ACM India Chapter Summit
+Description: The event took place in...
+Event date: Dec 22, 2023 - Dec 23, 2023
+Location: Manipal University Jaipur
+---
+[3] Score: 0.810
+Record from academic_calendar table:
+Id: 18
+Title: Holi
+Start date: 2024-03-25
+End date: 2024-03-25
+Description: Festival of colors.
+---
+[4] Score: 0.810
+Record from events table:
+Id: 6
+Title: Research Paper Talk
+Description: A Research Paper talk...
+Event date: Jun 14, 2024
+Location: Manipal University Jaipur
+---
+
+--- Query: which event took place in feb 2025? ---
+[1] Score: 0.871
+Record from events table:
+Id: 1
+Title: #include
+Description: The competition kicked off...
+Event date: Feb 22, 2025
+Location: Manipal University Jaipur
+---
+[2] Score: 0.818
+Record from events table:
+Id: 9
+Title: ACM India Chapter Summit
+Description: The event took place in...
+Event date: Dec 22, 2023 - Dec 23, 2023
+Location: Manipal University Jaipur
+---
+[3] Score: 0.810
+Record from academic_calendar table:
+Id: 18
+Title: Holi
+Start date: 2024-03-25
+End date: 2024-03-25
+Description: Festival of colors.
+---
+[4] Score: 0.810
+Record from events table:
+Id: 6
+Title: Research Paper Talk
+Description: A Research Paper talk...
+Event date: Jun 14, 2024
+Location: Manipal University Jaipur
+---
+
+--- Query: list all departments ---
+[1] Score: 0.863
+Record from departments table:
+Department id: 1
+Department name: Department of Economics
+---
+[2] Score: 0.851
+Record from departments table:
+Department id: 4
+Department name: Department of Arts
+---
+[3] Score: 0.845
+Record from departments table:
+Department id: 3
+Department name: Department of Languages, Literatures and Cultural Studies
+---
+[4] Score: 0.839
+Record from departments table:
+Department id: 2
+Department name: Department of Journalism and Mass Communication
+---
+
+--- Query: who is the hod of department of arts? ---
+[1] Score: 0.860
+Record from departments table:
+Department id: 4
+Department name: Department of Arts
+---
+[2] Score: 0.845
+Record from faculty table:
+Faculty id: 41
+Name: Dr. Richa Arora
+Designation: Professor & HoD
+Department id: 4
+Department id (from departments): 4
+Department name (from departments): Department of Arts
+---
+[3] Score: 0.830
+Record from faculty table:
+Faculty id: 48
+Name: Dr. Trishna Chaudhuri
+Designation: Assistant Professor
+Department id: 4
+Department id (from departments): 4
+Department name (from departments): Department of Arts
+---
+[4] Score: 0.827
+Record from faculty table:
+Faculty id: 11
+Name: Dr. Sushil Kumar Rai
+Designation: Professor & HoD
+Department id: 2
+Department id (from departments): 2
+Department name (from departments): Department of Journalism and Mass Communication
+---

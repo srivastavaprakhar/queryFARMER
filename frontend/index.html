@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>askMUJ - Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" id="login-container">
+    <h1>Welcome to askMUJ</h1>
+    <input type="text" id="username" placeholder="Username" />
+    <input type="password" id="password" placeholder="Password" />
+    <button onclick="handleLogin()">Login</button>
+    <p>or <a href="#" onclick="toggleSignup()">Sign up</a></p>
+  </div>
+
+  <div class="container hidden" id="signup-container">
+    <h1>Sign up for askMUJ</h1>
+    <input type="text" id="new-username" placeholder="Username" />
+    <input type="password" id="new-password" placeholder="Password" />
+    <button onclick="handleSignup()">Sign Up</button>
+    <p>or <a href="#" onclick="toggleLogin()">Back to Login</a></p>
+  </div>
+
+  <div class="container hidden" id="chat-container">
+    <h1>askMUJ</h1>
+    <div id="chat-box" class="chat-box"></div>
+    <div class="input-area">
+      <input type="text" id="question" placeholder="Type your message..." />
+      <button onclick="askQuestion()">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

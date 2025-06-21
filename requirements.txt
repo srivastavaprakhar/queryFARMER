@@ -1,0 +1,12 @@
+flask
+bcrypt
+gpt4all
+llama-cpp-python
+llama-index
+chromadb
+numpy
+requests
+faiss-cpu
+sentence-transformer
+fastapi
+uvicorn
