@@ -3,32 +3,169 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>askMUJ - Chatbot</title>
+  <title>QueryFARMER - AI Farming Assistant</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
+  <!-- Login Container -->
   <div class="container" id="login-container">
-    <h1>Welcome to askMUJ</h1>
-    <input type="text" id="username" placeholder="Username" />
-    <input type="password" id="password" placeholder="Password" />
-    <button onclick="handleLogin()">Login</button>
-    <p>or <a href="#" onclick="toggleSignup()">Sign up</a></p>
+    <div class="auth-card">
+      <div class="logo-section">
+        <div class="logo-icon">
+          <i class="fas fa-seedling"></i>
+        </div>
+        <h1>QueryFARMER</h1>
+        <p class="tagline" data-i18n="welcome_subtitle">Your AI Farming Assistant</p>
+      </div>
+      
+      <form class="auth-form" onsubmit="handleLogin(); return false;">
+        <div class="input-group">
+          <i class="fas fa-user input-icon"></i>
+          <input type="text" id="username" data-i18n-placeholder="username" placeholder="Username" required />
+        </div>
+        <div class="input-group">
+          <i class="fas fa-lock input-icon"></i>
+          <input type="password" id="password" data-i18n-placeholder="password" placeholder="Password" required />
+        </div>
+        <button type="submit" class="btn-primary">
+          <span data-i18n="login">Login</span>
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </form>
+      
+      <p class="auth-switch">
+        <span data-i18n="dont_have_account">Don't have an account?</span> <a href="#" onclick="toggleSignup()" data-i18n="sign_up_link">Sign up</a>
+      </p>
+    </div>
   </div>
 
+  <!-- Signup Container -->
   <div class="container hidden" id="signup-container">
-    <h1>Sign up for askMUJ</h1>
-    <input type="text" id="new-username" placeholder="Username" />
-    <input type="password" id="new-password" placeholder="Password" />
-    <button onclick="handleSignup()">Sign Up</button>
-    <p>or <a href="#" onclick="toggleLogin()">Back to Login</a></p>
+    <div class="auth-card">
+      <div class="logo-section">
+        <div class="logo-icon">
+          <i class="fas fa-seedling"></i>
+        </div>
+        <h1>Join QueryFARMER</h1>
+        <p class="tagline">Start your farming journey</p>
+      </div>
+      
+      <form class="auth-form" onsubmit="handleSignup(); return false;">
+        <div class="input-group">
+          <i class="fas fa-user input-icon"></i>
+          <input type="text" id="new-username" data-i18n-placeholder="username" placeholder="Username" required />
+        </div>
+        <div class="input-group">
+          <i class="fas fa-lock input-icon"></i>
+          <input type="password" id="new-password" data-i18n-placeholder="password" placeholder="Password" required />
+        </div>
+        <button type="submit" class="btn-primary">
+          <span data-i18n="create_account">Create Account</span>
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </form>
+      
+      <p class="auth-switch">
+        <span data-i18n="already_have_account">Already have an account?</span> <a href="#" onclick="toggleLogin()" data-i18n="login_link">Login</a>
+      </p>
+    </div>
   </div>
 
+  <!-- Chat Container -->
   <div class="container hidden" id="chat-container">
-    <h1>askMUJ</h1>
-    <div id="chat-box" class="chat-box"></div>
-    <div class="input-area">
-      <input type="text" id="question" placeholder="Type your message..." />
-      <button onclick="askQuestion()">Send</button>
+    <div class="chat-header">
+      <div class="header-content">
+        <div class="logo-section">
+          <div class="logo-icon">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <h1>QueryFARMER</h1>
+        </div>
+        <button class="btn-logout" onclick="logout()">
+          <i class="fas fa-sign-out-alt"></i>
+          <span data-i18n="logout">Logout</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="chat-main">
+      <div id="chat-box" class="chat-box">
+        <div class="welcome-message">
+          <div class="welcome-icon">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <h2 data-i18n="welcome">Welcome to QueryFARMER!</h2>
+          <p data-i18n="welcome_subtitle">I'm here to help you with farming questions, crop advice, pest management, and agricultural policies. Ask me anything!</p>
+        </div>
+      </div>
+      
+      <div class="input-area">
+        <div class="input-wrapper">
+          <input 
+            type="text" 
+            id="question" 
+            data-i18n-placeholder="ask_question"
+            placeholder="Ask about crops, farming practices, or policies..." 
+            onkeypress="handleKeyPress(event)"
+          />
+          <button onclick="askQuestion()" class="btn-send" id="send-btn">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Include Language Selector Modal -->
+  <div id="language-modal" class="language-modal hidden">
+    <div class="language-modal-content">
+      <div class="language-header">
+        <div class="language-icon">
+          <i class="fas fa-globe"></i>
+        </div>
+        <h2 id="language-title">Choose Your Language</h2>
+        <p id="language-subtitle">Please select your preferred language to continue</p>
+      </div>
+      
+      <div class="language-options">
+        <button class="language-option" data-lang="hi" onclick="selectLanguage('hi')">
+          <span class="flag">🇮🇳</span>
+          <span class="lang-name">हिंदी</span>
+          <span class="lang-english">Hindi</span>
+        </button>
+        
+        <button class="language-option" data-lang="gu" onclick="selectLanguage('gu')">
+          <span class="flag">🇮🇳</span>
+          <span class="lang-name">ગુજરાતી</span>
+          <span class="lang-english">Gujarati</span>
+        </button>
+        
+        <button class="language-option" data-lang="mr" onclick="selectLanguage('mr')">
+          <span class="flag">🇮🇳</span>
+          <span class="lang-name">मराठी</span>
+          <span class="lang-english">Marathi</span>
+        </button>
+        
+        <button class="language-option" data-lang="bn" onclick="selectLanguage('bn')">
+          <span class="flag">🇧🇩</span>
+          <span class="lang-name">বাংলা</span>
+          <span class="lang-english">Bengali</span>
+        </button>
+        
+        <button class="language-option" data-lang="en" onclick="selectLanguage('en')">
+          <span class="flag">🇺🇸</span>
+          <span class="lang-name">English</span>
+          <span class="lang-english">English</span>
+        </button>
+      </div>
+      
+      <div class="language-footer">
+        <p>You can change this later in settings</p>
+      </div>
     </div>
   </div>
 

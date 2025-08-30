@@ -2,7 +2,7 @@ from transformers import AutoTokenizer, AutoModel
 import torch
 import numpy as np
 from llama_index.core.node_parser import SentenceSplitter
-from llama_index.vector_stores.faiss import FaissVectorStore
+from llama_index.vector_stores.faiss.base import FaissVectorStore
 from llama_index.core import VectorStoreIndex, load_index_from_storage
 from llama_index.core.storage.storage_context import StorageContext
 from llama_index.core.settings import Settings

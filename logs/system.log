@@ -84,3 +84,85 @@ Location: Manipal University Jaipur
 2025-06-21 10:49:43,200 - INFO - Question: list all departments \u2192 Answer: There are four departments in Manipal University. They are: Department of Economics, Department of Arts, Department of Languages, Literatures and Cultural Studies, and Department of Journalism and Mass Communication.
 2025-06-21 10:54:01,508 - INFO - [\U0001f50d] Most relevant table inferred: faculty
 2025-06-21 11:00:16,273 - INFO - Question: who is the hod of department of arts? \u2192 Answer: Dr. Richa Arora is the Head of the Department (HoD) for the Department of Arts at Manipal University.
+2025-08-30 23:47:40,218 - INFO - LLM is explicitly disabled.
+2025-08-30 23:56:41,140 - INFO - LLM is explicitly disabled.
+2025-08-30 23:57:43,786 - INFO - LLM is explicitly disabled.
+2025-08-30 23:58:25,630 - INFO - MistralEngine initialized.
+2025-08-31 00:01:20,019 - INFO - MistralEngine initialized.
+2025-08-31 00:08:53,409 - INFO - User 'trial' logged in via API
+2025-08-31 00:09:02,952 - INFO - [\U0001f50d] Most relevant table inferred: farming_equipment
+2025-08-31 00:13:58,217 - INFO - Question: how much does a tractor cost? \u2192 Answer: !			$
+#
+2025-08-31 00:27:44,369 - INFO - LLM is explicitly disabled.
+2025-08-31 00:29:39,175 - INFO - User 'trial' logged in.
+2025-08-31 00:29:41,203 - ERROR - Could not connect to API server for /login: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017208B68440>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-08-31 00:29:41,204 - ERROR - Model not found at: C:/Users/Prakhar Srivastava/Desktop/AskQuery/models/Mistral/mistral-7b-instruct-v0.2.Q4_K_M.gguf
+2025-08-31 00:31:16,331 - INFO - LLM is explicitly disabled.
+2025-08-31 00:31:20,715 - INFO - User 'trial' logged in.
+2025-08-31 00:31:22,759 - ERROR - Could not connect to API server for /login: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002495C8E4440>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-08-31 00:31:35,818 - INFO - MistralEngine initialized.
+2025-08-31 00:31:35,826 - INFO - Building RAG index...
+2025-08-31 00:32:36,020 - INFO - User query: how much does a tractor cost?
+2025-08-31 00:32:36,083 - INFO - [\U0001f50d] Most relevant table inferred: farming_equipment
+2025-08-31 00:36:16,166 - INFO - Bot response: Sorry, I only return plain English answers.
+2025-08-31 00:36:18,215 - ERROR - Could not connect to API server for /ask: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /ask (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002491180BED0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-08-31 00:37:48,009 - INFO - LLM is explicitly disabled.
+2025-08-31 00:38:11,020 - INFO - MistralEngine initialized.
+2025-08-31 00:39:16,580 - INFO - MistralEngine initialized.
+2025-08-31 00:46:36,519 - INFO - User query: which crop to grow during monsoon
+2025-08-31 00:46:36,832 - INFO - [\U0001f50d] Most relevant table inferred: farming_calendar
+2025-08-31 00:50:16,890 - INFO - Bot response: During the monsoon season, which falls between July 1, 2024, and August 15, 2024, according to the provided farming calendar, it is recommended to sow kharif crops. Some common kharif crops are rice, maize, and cotton. Prepare the fields for these crops during the Kharif Season Preparation phase, which typically happens in late June.
+2025-08-31 00:50:18,363 - INFO - [\U0001f50d] Most relevant table inferred: farming_calendar
+2025-08-31 00:58:23,843 - INFO - Question: which crop to grow during monsoon \u2192 Answer: Sorry, I only return plain English answers.
+2025-08-31 00:58:24,603 - INFO - Synced to API /ask: {'answer': 'Sorry, I only return plain English answers.'}
+2025-08-31 00:59:42,837 - INFO - User 'trial' logged in via API
+2025-08-31 00:59:58,760 - INFO - [\U0001f50d] Most relevant table inferred: farming_calendar
+2025-08-31 01:04:29,755 - INFO - Question: which crop to grow during summers \u2192 Answer: Sorry, I only return plain English answers.
+2025-08-31 01:08:48,965 - INFO - LLM is explicitly disabled.
+2025-08-31 01:09:10,429 - INFO - MistralEngine initialized.
+2025-08-31 01:11:07,313 - INFO - MistralEngine initialized.
+2025-08-31 01:19:42,287 - INFO - User 'trial' logged in via API
+2025-08-31 01:19:50,473 - INFO - [\U0001f50d] Most relevant table inferred: farming_calendar
+2025-08-31 01:22:59,559 - INFO - Question: which crops to grow in monsoon? \u2192 Answer: You should grow kharif crops during monsoon. Some common kharif crops are rice, maize, and cotton. Prepare your fields before monsoon starts.
+2025-08-31 01:58:01,272 - INFO - LLM is explicitly disabled.
+2025-08-31 01:58:58,825 - INFO - MistralEngine initialized.
+2025-08-31 02:00:18,680 - INFO - MistralEngine initialized.
+2025-08-31 02:10:51,826 - INFO - LLM is explicitly disabled.
+2025-08-31 02:11:14,029 - INFO - MistralEngine initialized.
+2025-08-31 02:12:52,784 - INFO - MistralEngine initialized.
+2025-08-31 02:15:04,519 - INFO - User 'trial' logged in via API
+2025-08-31 02:18:07,357 - INFO - [\U0001f50d] Most relevant table inferred: crops
+2025-08-31 02:23:38,958 - INFO - Question: which crops to grow in summer? \u2192 Answer: During summer, you can grow fruits like grapes. They require medium water and grow well in clay loam soil.
+2025-08-31 02:23:59,197 - INFO - User 'trial' logged in via API
+2025-08-31 02:26:03,278 - INFO - LLM is explicitly disabled.
+2025-08-31 02:26:15,756 - INFO - MistralEngine initialized.
+2025-08-31 02:28:32,494 - INFO - MistralEngine initialized.
+2025-08-31 02:39:37,425 - INFO - LLM is explicitly disabled.
+2025-08-31 02:39:55,295 - INFO - MistralEngine initialized.
+2025-08-31 02:41:09,122 - INFO - MistralEngine initialized.
+2025-08-31 02:42:33,662 - INFO - User 'trial' logged in via API
+2025-08-31 02:48:57,883 - INFO - LLM is explicitly disabled.
+2025-08-31 02:49:09,576 - INFO - MistralEngine initialized.
+2025-08-31 02:50:48,620 - INFO - MistralEngine initialized.
+2025-08-31 02:52:10,510 - INFO - User 'trial' logged in via API
+2025-08-31 02:55:12,701 - INFO - User 'trial' logged in via API
+2025-08-31 02:55:22,503 - INFO - [\U0001f50d] Most relevant table inferred: crops
+2025-08-31 02:55:29,566 - INFO - User 'trial' logged in via API
+2025-08-31 02:55:40,535 - INFO - [\U0001f50d] Most relevant table inferred: farming_calendar
+2025-08-31 02:59:27,038 - INFO - LLM is explicitly disabled.
+2025-08-31 02:59:32,218 - INFO - MistralEngine initialized.
+2025-08-31 03:00:28,716 - INFO - MistralEngine initialized.
+2025-08-31 03:01:51,944 - INFO - User 'trial' logged in via API
+2025-08-31 03:02:08,976 - INFO - User 'trial' logged in via API
+2025-08-31 03:02:19,018 - INFO - [\U0001f50d] Most relevant table inferred: farming_calendar
+2025-08-31 03:05:28,633 - INFO - User 'trial' logged in via API
+2025-08-31 03:05:38,588 - INFO - [\U0001f50d] Most relevant table inferred: farming_calendar
+2025-08-31 03:15:24,337 - INFO - LLM is explicitly disabled.
+2025-08-31 03:15:35,909 - INFO - MistralEngine initialized.
+2025-08-31 03:16:52,621 - INFO - MistralEngine initialized.
+2025-08-31 03:19:44,181 - INFO - User 'prakhar' signed up via API
+2025-08-31 03:26:45,869 - INFO - User 'trial' logged in via API
+2025-08-31 03:26:54,891 - INFO - [\U0001f50d] Most relevant table inferred: farming_calendar
+2025-08-31 03:30:22,381 - INFO - Question: which crops grown in monsoon \u2192 Answer: Monsoon season in the provided context is during Kharif season and crops like rice, maize, and cotton are grown during this period.
+2025-08-31 03:37:26,304 - INFO - [\U0001f50d] Most relevant table inferred: farming_equipment
+2025-08-31 03:41:07,221 - INFO - Question: how much does a tractor cost? \u2192 Answer: Tractor costs between \u20b95,00,000 and \u20b915,00,000.

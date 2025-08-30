@@ -373,3 +373,583 @@ Department id: 2
 Department id (from departments): 2
 Department name (from departments): Department of Journalism and Mass Communication
 ---
+
+--- Query: how much does a tractor cost? ---
+[1] Score: 0.862
+Record from farming_equipment table:
+Id: 41
+Name: Tractor
+Category: Heavy Machinery
+Price range: ₹5,00,000 - ₹15,00,000
+Usage: Plowing, tilling, transportation
+Maintenance frequency: Every 100 hours
+Power source: Diesel
+Location hint: Main equipment shed, near fuel storage
+Keywords: tractor,plow,till,transport,farming machine
+---
+[2] Score: 0.862
+Record from farming_equipment table:
+Id: 1
+Name: Tractor
+Category: Heavy Machinery
+Price range: ₹5,00,000 - ₹15,00,000
+Usage: Plowing, tilling, transportation
+Maintenance frequency: Every 100 hours
+Power source: Diesel
+Location hint: Main equipment shed, near fuel storage
+Keywords: tractor,plow,till,transport,farming machine
+---
+[3] Score: 0.861
+Record from farming_equipment table:
+Id: 31
+Name: Tractor
+Category: Heavy Machinery
+Price range: ₹5,00,000 - ₹15,00,000
+Usage: Plowing, tilling, transportation
+Maintenance frequency: Every 100 hours
+Power source: Diesel
+Location hint: Main equipment shed, near fuel storage
+Keywords: tractor,plow,till,transport,farming machine
+---
+[4] Score: 0.861
+Record from farming_equipment table:
+Id: 11
+Name: Tractor
+Category: Heavy Machinery
+Price range: ₹5,00,000 - ₹15,00,000
+Usage: Plowing, tilling, transportation
+Maintenance frequency: Every 100 hours
+Power source: Diesel
+Location hint: Main equipment shed, near fuel storage
+Keywords: tractor,plow,till,transport,farming machine
+---
+
+--- Query: how much does a tractor cost? ---
+[1] Score: 0.862
+Record from farming_equipment table:
+Id: 41
+Name: Tractor
+Category: Heavy Machinery
+Price range: ₹5,00,000 - ₹15,00,000
+Usage: Plowing, tilling, transportation
+Maintenance frequency: Every 100 hours
+Power source: Diesel
+Location hint: Main equipment shed, near fuel storage
+Keywords: tractor,plow,till,transport,farming machine
+---
+[2] Score: 0.862
+Record from farming_equipment table:
+Id: 1
+Name: Tractor
+Category: Heavy Machinery
+Price range: ₹5,00,000 - ₹15,00,000
+Usage: Plowing, tilling, transportation
+Maintenance frequency: Every 100 hours
+Power source: Diesel
+Location hint: Main equipment shed, near fuel storage
+Keywords: tractor,plow,till,transport,farming machine
+---
+[3] Score: 0.861
+Record from farming_equipment table:
+Id: 31
+Name: Tractor
+Category: Heavy Machinery
+Price range: ₹5,00,000 - ₹15,00,000
+Usage: Plowing, tilling, transportation
+Maintenance frequency: Every 100 hours
+Power source: Diesel
+Location hint: Main equipment shed, near fuel storage
+Keywords: tractor,plow,till,transport,farming machine
+---
+[4] Score: 0.861
+Record from farming_equipment table:
+Id: 11
+Name: Tractor
+Category: Heavy Machinery
+Price range: ₹5,00,000 - ₹15,00,000
+Usage: Plowing, tilling, transportation
+Maintenance frequency: Every 100 hours
+Power source: Diesel
+Location hint: Main equipment shed, near fuel storage
+Keywords: tractor,plow,till,transport,farming machine
+---
+
+--- Query: which crop to grow during monsoon ---
+[1] Score: 0.876
+Record from farming_calendar table:
+Id: 13
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[2] Score: 0.876
+Record from farming_calendar table:
+Id: 2
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[3] Score: 0.874
+Record from farming_calendar table:
+Id: 24
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[4] Score: 0.862
+Record from farming_calendar table:
+Id: 1
+Title: Kharif Season Preparation
+Start date: 2024-06-01
+End date: 2024-06-30
+Season: Kharif
+Activity type: Preparation
+Description: Prepare fields for monsoon crops like rice, maize, cotton
+---
+
+--- Query: which crop to grow during monsoon ---
+[1] Score: 0.876
+Record from farming_calendar table:
+Id: 13
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[2] Score: 0.876
+Record from farming_calendar table:
+Id: 2
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[3] Score: 0.874
+Record from farming_calendar table:
+Id: 24
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[4] Score: 0.862
+Record from farming_calendar table:
+Id: 1
+Title: Kharif Season Preparation
+Start date: 2024-06-01
+End date: 2024-06-30
+Season: Kharif
+Activity type: Preparation
+Description: Prepare fields for monsoon crops like rice, maize, cotton
+---
+
+--- Query: which crop to grow during summers ---
+[1] Score: 0.864
+Record from farming_calendar table:
+Id: 20
+Title: Summer Vegetable Sowing
+Start date: 2025-03-15
+End date: 2025-04-15
+Season: Summer
+Activity type: Sowing
+Description: Sow summer vegetables like okra, cucumber, bitter gourd
+---
+[2] Score: 0.863
+Record from crops table:
+Crop id: 69
+Name: Grapes
+Category id: 3
+Season: Summer
+Growth period days: 180
+Water requirements: Medium
+Soil type: Clay loam
+Category id (from farming_categories): 3
+Category name (from farming_categories): Fruits
+---
+[3] Score: 0.862
+Record from farming_calendar table:
+Id: 9
+Title: Summer Vegetable Sowing
+Start date: 2025-03-15
+End date: 2025-04-15
+Season: Summer
+Activity type: Sowing
+Description: Sow summer vegetables like okra, cucumber, bitter gourd
+---
+[4] Score: 0.860
+Record from farming_calendar table:
+Id: 31
+Title: Summer Vegetable Sowing
+Start date: 2025-03-15
+End date: 2025-04-15
+Season: Summer
+Activity type: Sowing
+Description: Sow summer vegetables like okra, cucumber, bitter gourd
+---
+
+--- Query: which crops to grow in monsoon? ---
+[1] Score: 0.851
+Record from farming_calendar table:
+Id: 13
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[2] Score: 0.850
+Record from farming_calendar table:
+Id: 2
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[3] Score: 0.847
+Record from farming_calendar table:
+Id: 24
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[4] Score: 0.835
+Record from farming_calendar table:
+Id: 1
+Title: Kharif Season Preparation
+Start date: 2024-06-01
+End date: 2024-06-30
+Season: Kharif
+Activity type: Preparation
+Description: Prepare fields for monsoon crops like rice, maize, cotton
+---
+
+--- Query: which crops to grow in summer? ---
+[1] Score: 0.851
+Record from crops table:
+Crop id: 15
+Name: Grapes
+Category id: 3
+Season: Summer
+Growth period days: 180
+Water requirements: Medium
+Soil type: Clay loam
+Category id (from farming_categories): 3
+Category name (from farming_categories): Fruits
+---
+[2] Score: 0.850
+Record from crops table:
+Crop id: 42
+Name: Grapes
+Category id: 3
+Season: Summer
+Growth period days: 180
+Water requirements: Medium
+Soil type: Clay loam
+Category id (from farming_categories): 3
+Category name (from farming_categories): Fruits
+---
+[3] Score: 0.848
+Record from crops table:
+Crop id: 69
+Name: Grapes
+Category id: 3
+Season: Summer
+Growth period days: 180
+Water requirements: Medium
+Soil type: Clay loam
+Category id (from farming_categories): 3
+Category name (from farming_categories): Fruits
+---
+[4] Score: 0.848
+Record from farming_calendar table:
+Id: 20
+Title: Summer Vegetable Sowing
+Start date: 2025-03-15
+End date: 2025-04-15
+Season: Summer
+Activity type: Sowing
+Description: Sow summer vegetables like okra, cucumber, bitter gourd
+---
+
+--- Query: which crops grow in monson ---
+[1] Score: 0.825
+Record from crops table:
+Crop id: 61
+Name: Onion
+Category id: 2
+Season: Rabi
+Growth period days: 120
+Water requirements: Low
+Soil type: Sandy soil
+Category id (from farming_categories): 2
+Category name (from farming_categories): Vegetables
+---
+[2] Score: 0.825
+Record from crops table:
+Crop id: 7
+Name: Onion
+Category id: 2
+Season: Rabi
+Growth period days: 120
+Water requirements: Low
+Soil type: Sandy soil
+Category id (from farming_categories): 2
+Category name (from farming_categories): Vegetables
+---
+[3] Score: 0.823
+Record from crops table:
+Crop id: 34
+Name: Onion
+Category id: 2
+Season: Rabi
+Growth period days: 120
+Water requirements: Low
+Soil type: Sandy soil
+Category id (from farming_categories): 2
+Category name (from farming_categories): Vegetables
+---
+[4] Score: 0.819
+Record from farming_categories table:
+Category id: 4
+Category name: Pulses & Legumes
+Description: Protein-rich crops like beans, lentils, peas
+---
+
+--- Query: whcih crops grow in monsoon ---
+[1] Score: 0.866
+Record from farming_calendar table:
+Id: 2
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[2] Score: 0.866
+Record from farming_calendar table:
+Id: 13
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[3] Score: 0.864
+Record from farming_calendar table:
+Id: 24
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[4] Score: 0.842
+Record from farming_calendar table:
+Id: 1
+Title: Kharif Season Preparation
+Start date: 2024-06-01
+End date: 2024-06-30
+Season: Kharif
+Activity type: Preparation
+Description: Prepare fields for monsoon crops like rice, maize, cotton
+---
+
+--- Query: [EN] which crops grow in monsoon ---
+[1] Score: 0.871
+Record from farming_calendar table:
+Id: 13
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[2] Score: 0.870
+Record from farming_calendar table:
+Id: 2
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[3] Score: 0.869
+Record from farming_calendar table:
+Id: 24
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[4] Score: 0.855
+Record from farming_calendar table:
+Id: 1
+Title: Kharif Season Preparation
+Start date: 2024-06-01
+End date: 2024-06-30
+Season: Kharif
+Activity type: Preparation
+Description: Prepare fields for monsoon crops like rice, maize, cotton
+---
+
+--- Query: [EN] which crops grow in monsoon ---
+[1] Score: 0.871
+Record from farming_calendar table:
+Id: 13
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[2] Score: 0.870
+Record from farming_calendar table:
+Id: 2
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[3] Score: 0.869
+Record from farming_calendar table:
+Id: 24
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[4] Score: 0.855
+Record from farming_calendar table:
+Id: 1
+Title: Kharif Season Preparation
+Start date: 2024-06-01
+End date: 2024-06-30
+Season: Kharif
+Activity type: Preparation
+Description: Prepare fields for monsoon crops like rice, maize, cotton
+---
+
+--- Query: which crops grown in monsoon ---
+[1] Score: 0.867
+Record from farming_calendar table:
+Id: 2
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[2] Score: 0.867
+Record from farming_calendar table:
+Id: 13
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[3] Score: 0.865
+Record from farming_calendar table:
+Id: 24
+Title: Monsoon Sowing
+Start date: 2024-07-01
+End date: 2024-08-15
+Season: Kharif
+Activity type: Sowing
+Description: Sow kharif crops with the onset of monsoon
+---
+[4] Score: 0.850
+Record from farming_calendar table:
+Id: 1
+Title: Kharif Season Preparation
+Start date: 2024-06-01
+End date: 2024-06-30
+Season: Kharif
+Activity type: Preparation
+Description: Prepare fields for monsoon crops like rice, maize, cotton
+---
+
+--- Query: how much does a tractor cost? ---
+[1] Score: 0.862
+Record from farming_equipment table:
+Id: 41
+Name: Tractor
+Category: Heavy Machinery
+Price range: ₹5,00,000 - ₹15,00,000
+Usage: Plowing, tilling, transportation
+Maintenance frequency: Every 100 hours
+Power source: Diesel
+Location hint: Main equipment shed, near fuel storage
+Keywords: tractor,plow,till,transport,farming machine
+---
+[2] Score: 0.862
+Record from farming_equipment table:
+Id: 1
+Name: Tractor
+Category: Heavy Machinery
+Price range: ₹5,00,000 - ₹15,00,000
+Usage: Plowing, tilling, transportation
+Maintenance frequency: Every 100 hours
+Power source: Diesel
+Location hint: Main equipment shed, near fuel storage
+Keywords: tractor,plow,till,transport,farming machine
+---
+[3] Score: 0.861
+Record from farming_equipment table:
+Id: 31
+Name: Tractor
+Category: Heavy Machinery
+Price range: ₹5,00,000 - ₹15,00,000
+Usage: Plowing, tilling, transportation
+Maintenance frequency: Every 100 hours
+Power source: Diesel
+Location hint: Main equipment shed, near fuel storage
+Keywords: tractor,plow,till,transport,farming machine
+---
+[4] Score: 0.861
+Record from farming_equipment table:
+Id: 11
+Name: Tractor
+Category: Heavy Machinery
+Price range: ₹5,00,000 - ₹15,00,000
+Usage: Plowing, tilling, transportation
+Maintenance frequency: Every 100 hours
+Power source: Diesel
+Location hint: Main equipment shed, near fuel storage
+Keywords: tractor,plow,till,transport,farming machine
+---

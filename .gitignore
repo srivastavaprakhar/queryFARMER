@@ -1,0 +1,231 @@
+# QueryFARMER .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# AI Models and Large Files
+models/*.gguf
+models/*.bin
+models/*.safetensors
+models/*.ckpt
+models/*.pth
+models/*.onnx
+*.gguf
+*.bin
+*.safetensors
+*.ckpt
+*.pth
+*.onnx
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Vector Index Files
+faiss_index/
+*.index
+*.faiss
+*.pkl
+*.pickle
+
+# Logs
+logs/
+*.log
+*.log.*
+llama.log
+retrieval_debug.log
+system.log
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+
+# Cache Directories
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Documentation Build
+docs/_build/
+site/
+
+# Test Coverage
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translation Service Cache
+translation_cache/
+*.cache
+
+# User Data
+user_data/
+user_preferences/
+personal_data/
+
+# API Keys and Secrets
+secrets.json
+config_secret.py
+api_keys.txt
+credentials.json
+
+# Large Data Files
+data/
+datasets/
+*.csv
+*.json
+*.xml
+*.zip
+*.tar.gz
+*.rar
+
+# Backup Files
+backup/
+*.backup
+*.bak
+*.old
+
+# Compiled Files
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.dylib
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Node.js (if using any frontend build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# Local Configuration
+config_local.py
+settings_local.py
+local_config.py
+
+# Temporary AI Model Downloads
+model_downloads/
+temp_models/
+download_cache/
+
+# Database Migrations (if using)
+migrations/
+*.sql
+
+# SSL Certificates
+*.pem
+*.key
+*.crt
+*.csr
+
+# Backup and Archive
+*.tar
+*.gz
+*.zip
+*.rar
+*.7z
+
+# System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Application Specific
+# Keep these files but ignore their content
+!requirements.txt
+!translation_requirements.txt
+!README.md
+!MULTILINGUAL_SETUP.md
+!LICENSE
